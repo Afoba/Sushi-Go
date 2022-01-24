@@ -42,7 +42,7 @@ class Instructions(BaseState):
         self.clicked = pygame.mouse.get_pressed()[0] == 1
 
     def create_text(self, size, position, text):
-        font = pygame.font.Font("D:\ProjetoFP\Modul\Assets\ps2p.ttf", size)
+        font = pygame.font.Font("Modul/Assets/ps2p.ttf", size)
         texti = font.render(text, True, (255,255,255))
         return texti, position
 
