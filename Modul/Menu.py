@@ -33,7 +33,7 @@ class Menu(BaseState):
     
     def update(self, dt, screen_size):
         x, y = screen_size
-        titlefonti = pygame.font.Font("D:\ProjetoFP\Modul\Assets\ps2p.ttf", math.floor(.08 * y))
+        titlefonti = pygame.font.Font("Modul/Assets/ps2p.ttf", math.floor(.08 * y))
         title = titlefonti.render("Sushi GO!", True, (0,0,0))
         titlepos = title.get_rect(center = (math.floor(x * .5), math.floor(y * .25)))
         self.title = [title, titlepos]
