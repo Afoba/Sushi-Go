@@ -33,7 +33,7 @@ class Win(BaseState):
         self.x, self.y = 0,0
 
     def create_text(self, size, position, text, surface):
-        font = pygame.font.Font("D:\ProjetoFP\Modul\Assets\ps2p.ttf", size)
+        font = pygame.font.Font("Modul/Assets/ps2p.ttf", size)
         texti = font.render(text, True, (255,255,255))
         surface.blit(texti, position)
 
