@@ -19,6 +19,8 @@ Diferentes combinações de Sushi dão pontos extra! Eis o que cada sushi faz:
 Na duração do jogo, há 3 rondas. No final de cada uma destas, contam-se os pontos e recolhem-se as cartas, com exceção dos pudins.
 O jogador com mais pontos ganha!
 
+### UI
+
 ![UI](UI.png)
 
 ### Pacotes
