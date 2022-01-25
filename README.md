@@ -18,3 +18,19 @@ Diferentes combinações de Sushi dão pontos extra! Eis o que cada sushi faz:
 
 Na duração do jogo, há 3 rondas. No final de cada uma destas, contam-se os pontos e recolhem-se as cartas, com exceção dos pudins.
 O jogador com mais pontos ganha!
+
+![UI](UI.png)
+
+### Pacotes
+
+- Pygame
+
+### Tarefas
+
+1. criar uma máquina de estados
+2. criar os oponentes e os respetivos ai
+3. ler teclas e criar as animações de rotação
+4. cálculo dos pontos conforme as cartas selecionadas pelo jogador
+5. win screen
+
+- Atualizado a última vez em 24/01/2021
